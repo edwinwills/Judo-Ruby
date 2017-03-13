@@ -17,6 +17,7 @@ module Judopay
     attribute :currency, String
     attribute :judo_id, String
     attribute :your_payment_meta_data, Hash
+    attribute :client_details, Hash
 
     validates_presence_of :your_consumer_reference,
                           :your_payment_reference,
